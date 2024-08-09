@@ -1,7 +1,7 @@
 spring:
   kafka:
     consumer:
-      bootstrap-servers: localhost:9092
+      #bootstrap-servers: localhost:9092
       group-id: jt-group-3
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer
@@ -13,5 +13,5 @@ spring:
 
 
 
-server:
-  port: 9292
+#server:
+#  port: 9292
